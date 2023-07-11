@@ -1,0 +1,9 @@
+{
+  "name": "client",
+  "scripts": {
+    "test": "echo 'test'"
+  },
+  "peerDependencies": {
+    "pkg1": "*"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "runner-multi",
+  "type": "module",
+  "scripts": {
+    "test": "roserepo-dev run test"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

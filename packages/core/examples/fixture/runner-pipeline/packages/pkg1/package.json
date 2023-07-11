@@ -1,0 +1,9 @@
+{
+  "name": "pk1",
+  "scripts": {
+    "echo": "echo 'pk1'"
+  },
+  "peerDependencies": {
+    "pk2": "*"
+  }
+}

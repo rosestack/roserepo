@@ -1,0 +1,10 @@
+{
+  "name": "web",
+  "scripts": {
+    "test": "echo 'web test'",
+    "echo": "echo 'web'"
+  },
+  "peerDependencies": {
+    "pk1": "*"
+  }
+}

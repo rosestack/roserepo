@@ -1,0 +1,7 @@
+{
+  "name": "executor-command",
+  "scripts": {
+    "test": "roserepo-dev run test",
+    "echo": "echo 'executor-command'"
+  }
+}

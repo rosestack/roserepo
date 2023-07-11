@@ -1,0 +1,64 @@
+{
+  "name": "@roserepo/ui",
+  "description": "roserepo ui plugin for roserepo",
+  "version": "1.0.0",
+  "author": {
+    "name": "meslzy",
+    "email": "i@meslzy.com",
+    "url": "https://meslzy.com/"
+  },
+  "repository": "github:rosestack/roserepo",
+  "bugs": "https://github.com/rosestack/roserepo/issues",
+  "homepage": "https://rosestack.meslzy.com/roserepo/plugins/ui",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
+  "scripts": {
+    "dev": "rosepack -w",
+    "build": "rosepack",
+    "lint": "eslint client source --ext .ts,.tsx --fix"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@fastify/cors": "^8.3.0",
+    "@mantine/core": "^6.0.13",
+    "@mantine/hooks": "^6.0.13",
+    "@vitejs/plugin-react-swc": "3.3.2",
+    "d3": "7.8.5",
+    "fastify": "^4.18.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.9.0",
+    "swr": "^2.1.5",
+    "vite": "4.3.9",
+    "vite-tsconfig-paths": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.12",
+    "@types/react-dom": "18.2.5"
+  },
+  "peerDependencies": {
+    "roserepo": "^1.0.4"
+  },
+  "files": [
+    "dist",
+    "client"
+  ],
+  "keywords": [
+    "rosestack",
+    "roserepo",
+    "ui"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "mit"
+}

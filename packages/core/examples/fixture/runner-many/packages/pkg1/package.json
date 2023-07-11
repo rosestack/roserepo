@@ -1,0 +1,6 @@
+{
+  "name": "pk1",
+  "scripts": {
+    "test": "echo 'pk1'"
+  }
+}

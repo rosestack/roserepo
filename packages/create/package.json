@@ -1,0 +1,41 @@
+{
+  "name": "create-roserepo",
+  "description": "create a new roserepo project",
+  "version": "1.0.0",
+  "author": {
+    "name": "meslzy",
+    "email": "i@meslzy.com",
+    "url": "https://meslzy.com/"
+  },
+  "repository": "github:rosestack/roserepo",
+  "bugs": "https://github.com/rosestack/roserepo/issues",
+  "homepage": "https://rosestack.meslzy.com/roserepo",
+  "type": "module",
+  "bin": "dist/bin.js",
+  "scripts": {
+    "dev": "rosepack -w",
+    "build": "rosepack",
+    "lint": "eslint lib --ext .ts --fix",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/prompts": "^2.4.4"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "keywords": [
+    "rosestack",
+    "roserepo"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "mit"
+}

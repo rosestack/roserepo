@@ -1,0 +1,6 @@
+{
+  "name": "utils",
+  "scripts": {
+    "echo": "echo 'utils'"
+  }
+}

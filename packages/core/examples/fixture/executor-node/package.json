@@ -1,0 +1,6 @@
+{
+  "name": "executor-node",
+  "scripts": {
+    "test": "roserepo-dev run test"
+  }
+}

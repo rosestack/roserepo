@@ -1,0 +1,10 @@
+{
+  "name": "env",
+  "type": "module",
+  "scripts": {
+    "test": "roserepo-dev run test"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "publish",
+  "type": "module",
+  "scripts": {
+    "upgrade": "roserepo-dev upgrade"
+  },
+  "workspaces": [
+    "packages/**"
+  ],
+  "private": true
+}

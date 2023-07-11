@@ -1,0 +1,11 @@
+{
+  "name": "publish",
+  "type": "module",
+  "scripts": {
+    "changeset": "roserepo-dev changeset"
+  },
+  "workspaces": [
+    "packages/**"
+  ],
+  "private": true
+}

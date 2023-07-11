@@ -1,0 +1,11 @@
+{
+  "name": "playground",
+  "type": "module",
+  "scripts": {
+    "test": "roserepo-dev run test --scope pkg1"
+  },
+  "workspaces": [
+    "apps/**",
+    "packages/**"
+  ]
+}

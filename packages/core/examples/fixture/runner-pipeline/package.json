@@ -1,0 +1,13 @@
+{
+  "name": "pipeline",
+  "type": "module",
+  "scripts": {
+    "test": "roserepo-dev run test",
+    "echo": "roserepo-dev run echo"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "shared/*"
+  ]
+}

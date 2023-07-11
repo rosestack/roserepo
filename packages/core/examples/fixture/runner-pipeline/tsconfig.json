@@ -1,0 +1,8 @@
+{
+  "include": [
+    "roserepo.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

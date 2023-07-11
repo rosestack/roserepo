@@ -1,0 +1,19 @@
+{
+  "name": "pk1",
+  "scripts": {
+    "upgrade": "roserepo-dev upgrade"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "axios": "1.4.0",
+    "swr": "^2.1.5",
+    "dawdadawd": "1.6.8"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  }
+}

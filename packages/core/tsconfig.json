@@ -1,0 +1,42 @@
+{
+  "extends": "@meslzy/tsconfig",
+  "compilerOptions": {
+    "rootDir": "lib",
+    "outDir": "dist",
+    //,
+    "baseUrl": "lib",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "~bin/*": [
+        "./bin/*"
+      ],
+      "~roserepo/*": [
+        "./roserepo/*"
+      ],
+      "~monorepo/*": [
+        "./roserepo/monorepo/*"
+      ],
+      "~workspace/*": [
+        "./roserepo/workspace/*"
+      ],
+      "~rosetask/*": [
+        "./rosetask/*"
+      ],
+      "~shared/*": [
+        "./shared/*"
+      ]
+    }
+  },
+  "include": [
+    "lib",
+    "test",
+    "roserepo.ts",
+    "rosepack.ts",
+    "rosepack.d.ts"
+  ],
+  "exclude": [
+    "dist"
+  ]
+}
