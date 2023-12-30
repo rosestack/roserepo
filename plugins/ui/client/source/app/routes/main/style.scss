@@ -1,0 +1,17 @@
+.rd3t-node, .rd3t-leaf-node {
+  fill: white !important;
+}
+
+.rd3t-label__title {
+  fill: white !important;
+  font-size: 12px;
+  transform: translateX(-12px);
+}
+
+.rd3t-label__attributes {
+  fill: black !important;
+}
+
+.rd3t-link {
+  stroke: white !important;
+}

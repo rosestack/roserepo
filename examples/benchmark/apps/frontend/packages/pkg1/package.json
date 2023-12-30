@@ -1,0 +1,9 @@
+{
+  "name": "@frontend/pkg1",
+  "scripts": {
+    "build": "echo 'build'"
+  },
+  "dependencies": {
+    "pkg1": "*"
+  }
+}

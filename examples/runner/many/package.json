@@ -1,0 +1,13 @@
+{
+  "name": "many-runner",
+  "type": "module",
+  "scripts": {
+    "lint": "roserepo run lint --no-cache"
+  },
+  "dependencies": {
+    "roserepo": "file:../../../packages/roserepo"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

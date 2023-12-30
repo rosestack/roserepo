@@ -1,0 +1,6 @@
+{
+  "name": "pkg2",
+  "scripts": {
+    "start": "echo pkg2"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "shortDescription": "Astonishing monorepo management tool",
+  "longDescription": "Roserepo is a tool to manage monorepos. It is designed to be simple, fast and easy to use. It is also designed to be flexible and extensible.",
+  "features": [
+  ],
+  "action": {
+    "primary": {
+      "name": "Getting Started",
+      "url": "getting-started"
+    },
+    "secondary": {
+      "name": "Introduction",
+      "url": "introduction"
+    }
+  },
+  "navbar": [
+    {
+      "name": "Plugins",
+      "url": "plugins",
+      "sub": [
+        {
+          "name": "Ui",
+          "url": "ui"
+        }
+      ]
+    }
+  ],
+  "sidebar": [
+    {
+      "name": "Introduction",
+      "url": "introduction"
+    },
+    {
+      "name": "Getting Started",
+      "url": "getting-started"
+    }
+  ]
+}

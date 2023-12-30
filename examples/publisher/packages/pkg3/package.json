@@ -1,0 +1,9 @@
+{
+  "name": "pkg3",
+  "version": "1.0.0",
+  "private": true,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

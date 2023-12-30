@@ -1,0 +1,8 @@
+{
+  "name": "@roserepo/docs",
+  "type": "module",
+  "dependencies": {
+    "@rosestack/components": "^1.0.3"
+  },
+  "private": true
+}

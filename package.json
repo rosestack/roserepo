@@ -1,0 +1,32 @@
+{
+  "name": "@roserepo/monorepo",
+  "type": "module",
+  "scripts": {
+    "roserepo": "roserepo",
+    "watch": "roserepo run watch",
+    "build": "roserepo run build",
+    "test": "roserepo run test",
+    "lint": "roserepo run lint",
+    "upgrade": "roserepo upgrade",
+    "version": "roserepo version",
+    "publish": "roserepo publish"
+  },
+  "devDependencies": {
+    "@meslzy/eslint-config": "^0.5.7",
+    "@meslzy/tsconfig": "^0.2.2",
+    "@vitest/coverage-v8": "^1.1.0",
+    "@vitest/ui": "^1.1.0",
+    "eslint": "^8.56.0",
+    "rosepack": "^1.0.13",
+    "roserepo": "^1.0.12",
+    "typescript": "^5.3.3",
+    "vite-tsconfig-paths": "^4.2.3",
+    "vitest": "^1.1.0"
+  },
+  "workspaces": [
+    "docs",
+    "packages/*",
+    "plugins/*"
+  ],
+  "private": true
+}

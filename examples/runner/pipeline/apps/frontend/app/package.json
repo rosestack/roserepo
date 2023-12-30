@@ -1,0 +1,11 @@
+{
+  "name": "@frontend/app",
+  "scripts": {
+    "start": "echo 'start'",
+    "build": "echo 'build'"
+  },
+  "dependencies": {
+    "@frontend/pkg1": "*",
+    "@frontend/pkg2": "*"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "node-executor",
+  "type": "module",
+  "scripts": {
+    "run": "node src/index.js",
+    "start": "roserepo run start"
+  },
+  "dependencies": {
+    "roserepo": "file:../../../packages/roserepo"
+  }
+}

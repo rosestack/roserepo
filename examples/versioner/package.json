@@ -1,0 +1,14 @@
+{
+  "name": "publisher",
+  "type": "module",
+  "scripts": {
+    "version": "roserepo version"
+  },
+  "dependencies": {
+    "roserepo": "file:../../../packages/roserepo"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": "true"
+}

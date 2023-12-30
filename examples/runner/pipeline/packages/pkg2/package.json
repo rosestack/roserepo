@@ -1,0 +1,6 @@
+{
+  "name": "pkg2",
+  "scripts": {
+    "build": "echo 'build'"
+  }
+}

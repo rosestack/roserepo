@@ -1,0 +1,6 @@
+{
+  "name": "pkg2",
+  "scripts": {
+    "lint": "echo lint"
+  }
+}
