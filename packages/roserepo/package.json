@@ -1,0 +1,52 @@
+{
+  "name": "roserepo",
+  "description": "astonishing monorepo management tool",
+  "version": "2.0.3",
+  "author": {
+    "name": "meslzy",
+    "email": "i@meslzy.com",
+    "url": "https://meslzy.com/"
+  },
+  "repository": "github:rosestack/roserepo",
+  "bugs": "https://github.com/rosestack/roserepo/issues",
+  "homepage": "https://rosestack.meslzy.com/roserepo",
+  "type": "module",
+  "bin": "dist/bin.js",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "watch": "rosepack -w",
+    "build": "rosepack",
+    "lint": "eslint --fix"
+  },
+  "dependencies": {
+    "@inquirer/checkbox": "^2.3.10",
+    "@opentf/cli-pbar": "^0.7.2",
+    "@ygoe/msgpack": "^1.0.3",
+    "ansis": "^3.2.1",
+    "chokidar": "^3.6.0",
+    "commander": "^12.1.0",
+    "emittery": "^1.0.3",
+    "execa": "^9.3.0",
+    "fast-glob": "^3.3.2",
+    "inquirer": "^9.3.5",
+    "npm-registry-fetch": "^17.1.0",
+    "picomatch": "^4.0.2",
+    "roserc": "^1.0.0",
+    "rosetil": "^1.0.5",
+    "semver": "^7.6.2"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/npm-registry-fetch": "^8.0.7",
+    "@types/picomatch": "^2.3.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "rosestack",
+    "roserepo"
+  ],
+  "license": "mit"
+}

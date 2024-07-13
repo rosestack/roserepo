@@ -1,0 +1,13 @@
+{
+  "name": "publish",
+  "type": "module",
+  "scripts": {
+    "publish": "roserepo publish"
+  },
+  "dependencies": {
+    "roserepo": "*"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

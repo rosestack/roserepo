@@ -1,0 +1,7 @@
+{
+  "name": "pkg-npm",
+  "packageManager": "npm@10.8.1",
+  "scripts": {
+    "build": "echo 'build'"
+  }
+}

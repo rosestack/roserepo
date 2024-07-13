@@ -1,0 +1,9 @@
+{
+  "name": "pkg1",
+  "scripts": {
+    "build": "echo 'build'"
+  },
+  "peerDependencies": {
+    "pkg2": "*"
+  }
+}

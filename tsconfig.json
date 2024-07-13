@@ -1,0 +1,6 @@
+{
+  "extends": "@meslzy/tsconfig",
+  "include": [
+    "roserepo.ts"
+  ]
+}

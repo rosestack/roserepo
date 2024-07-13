@@ -1,0 +1,7 @@
+{
+  "name": "pkg-yarn",
+  "packageManager": "yarn@1.22.22",
+  "scripts": {
+    "build": "echo 'build'"
+  }
+}

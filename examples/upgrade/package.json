@@ -1,0 +1,14 @@
+{
+  "name": "upgrade",
+  "type": "module",
+  "scripts": {
+    "upgrade": "roserepo upgrade"
+  },
+  "dependencies": {
+    "roserepo": "*",
+    "rosepack": "^1.0.19"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

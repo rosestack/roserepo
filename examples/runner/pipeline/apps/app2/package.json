@@ -1,0 +1,10 @@
+{
+  "name": "app2",
+  "scripts": {
+    "start": "echo 'start'",
+    "build": "echo 'build'"
+  },
+  "dependencies": {
+    "pkg1": "*"
+  }
+}

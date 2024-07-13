@@ -1,0 +1,13 @@
+{
+  "name": "env",
+  "type": "module",
+  "scripts": {
+    "start": "roserepo run start"
+  },
+  "dependencies": {
+    "roserepo": "*"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "version",
+  "type": "module",
+  "scripts": {
+    "version": "roserepo version"
+  },
+  "dependencies": {
+    "roserepo": "*"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

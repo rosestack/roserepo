@@ -1,0 +1,10 @@
+{
+  "ui": "stream",
+  "tasks": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ]
+    }
+  }
+}

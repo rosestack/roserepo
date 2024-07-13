@@ -1,0 +1,14 @@
+{
+  "name": "@runner/pipeline",
+  "type": "module",
+  "scripts": {
+    "start": "roserepo run start"
+  },
+  "dependencies": {
+    "roserepo": "*"
+  },
+  "workspaces": [
+    "apps/**",
+    "packages/**"
+  ]
+}

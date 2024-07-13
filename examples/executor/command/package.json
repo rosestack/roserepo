@@ -1,0 +1,13 @@
+{
+  "name": "@executor/command",
+  "type": "module",
+  "scripts": {
+    "start": "roserepo run start"
+  },
+  "dependencies": {
+    "roserepo": "*"
+  },
+  "workspaces": [
+    "packages/**"
+  ]
+}

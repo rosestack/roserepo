@@ -1,0 +1,13 @@
+{
+  "name": "basic",
+  "type": "module",
+  "scripts": {
+    "build": "roserepo run build"
+  },
+  "dependencies": {
+    "roserepo": "*"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
